@@ -1,0 +1,40 @@
+{
+  "name": "zapatta/laravel-make-service",
+  "description": "Generate a make:service command and add to make:model -s option to autogenerate",
+  "keywords": [
+    "spatie",
+    "laravel-medialibrary",
+    "media",
+    "conversion",
+    "images",
+    "downloads",
+    "cms",
+    "laravel"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.2|^8.0",
+    "illuminate/support": "^6.0|^7.0|^8.0"
+  },
+  "homepage": "https://github.com/MarceloZapatta/laravel-make-service",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcelo Zapatta",
+      "email": "marcelozapatta0@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zapatta\\LaravelMakeService\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zapatta\\LaravelMakeServiceProvider"
+      ]
+    }
+  },
+  "prefer-stable": true
+}
