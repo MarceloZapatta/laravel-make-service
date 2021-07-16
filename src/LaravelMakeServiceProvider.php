@@ -5,7 +5,7 @@ namespace Spatie\MediaLibrary;
 use Illuminate\Support\ServiceProvider;
 use Zapatta\Console\Commands\MakeService;
 
-class MediaLibraryServiceProvider extends ServiceProvider
+class LaravelMakeServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any package services.
