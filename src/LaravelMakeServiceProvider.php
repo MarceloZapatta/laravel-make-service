@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibrary;
+namespace Zapatta;
 
 use Illuminate\Support\ServiceProvider;
 use Zapatta\Console\Commands\MakeService;
