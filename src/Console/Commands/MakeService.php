@@ -35,10 +35,8 @@ class MakeService extends GeneratorCommand {
      * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
      */
     public function handle() {
-
+        
     }
-
-
 
     /**
      * Get the stub file for the generator.
